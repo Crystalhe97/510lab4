@@ -3,7 +3,7 @@ name: Daily Web Scraper
 on:
   schedule:
     # Schedule to run daily at 0:00 UTC
-    - cron:  '*/10 * * * *'
+    - cron:  '0 0 * * *'
 
 jobs:
   scrape:
